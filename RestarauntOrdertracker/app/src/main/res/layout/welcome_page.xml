@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/restaraunt"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        android:text="Register page"
+        android:textSize="20dp"
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="30dp"
+        android:hint="Enter Username"
+        android:password="true"
+        android:textSize="30dp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="30dp"
+        android:hint="Enter Password"
+        android:password="true"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/Signup"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="600dp"
+        android:text="Sign Up"
+        android:textColor="#ffffff"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="650dp"
+        android:text="register"
+        android:textColor="#ffffff">
+
+    </Button>
+
+
+</RelativeLayout>
